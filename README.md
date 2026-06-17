@@ -21,7 +21,7 @@ I build typed Python backends (FastAPI, Django), React/Next.js frontends, and th
 | Project | What it is | Stack |
 |---------|-----------|-------|
 | **[receipt-scanner](https://github.com/gbilton/receipt-scanner)** | Upload a receipt photo → structured JSON via a Claude vision model, constrained to a typed schema (structured outputs). | FastAPI · Anthropic SDK · React · TS |
-| **Backline** _(live product)_ | Audio-processing platform for musicians — pitch-shift, stem separation, loudness normalization through a distributed Redis-queue worker pipeline. | FastAPI · Demucs · ffmpeg · React |
+| **[Stempo](https://getstempo.com)** _(live SaaS)_ | Audio-processing platform for musicians — pitch-shift, stem separation, loudness normalization through a distributed Redis-queue worker pipeline. | FastAPI · Demucs · ffmpeg · React |
 | **[caneleira](https://github.com/gbilton/caneleira)** | Full-stack management platform with a clean feature-sliced, layered architecture (router → service → repository) and a fully type-safe React SPA. | FastAPI · SQLAlchemy · React · TS · Docker |
 | **[clawdpods](https://github.com/gbilton/clawdpods)** | Infrastructure to run AI agents as isolated, least-privilege Docker containers — per-agent config, workspace, and credentials. | Docker · AI agents · Shell |
 | **[TCC](https://github.com/gbilton/TCC)** | Honors thesis: deep reinforcement learning for traffic-signal control, with a custom traffic simulator. | PyTorch · Deep RL · Python |
